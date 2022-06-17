@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Web</title>
+    <script src="script/script.js"></script>
+    <script src="https://kit.fontawesome.com/eb729fab7f.js" crossorigin="anonymous"></script>
+    <link href="portfolio web.css" rel="stylesheet">
+</head>
+ <body class="body">
+    <nav>
+        <div class="container">
+            <a href="+">
+                Felicitas Molinero
+            </a>
+            <ul class="nav-desktop">
+                <li>
+                    <a href="#inicio">Inicio</a>
+                </li>
+                <li>
+                    <a href="#sobre-mi">Sobre Mi</a>
+                </li>
+                <li>
+                    <a href="#proyectos">Proyectos</a>
+                </li>
+                <li>
+                    <a href="#contacto">Contacto</a>
+                </li>
+            </ul>
+    <nav>
+            </a>
+            <ul class="nav-mobile">
+                <li oneclick="togglenavbar()">
+                    <i class="fas fa-bars"></i>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section id="jumbotron">
+        <div class="container">
+            <div class="jumbotron-grid">
+                <picture class="feli">
+                    <img src="feli.jpeg" class="feli"
+                 </picture>
+            </div>
+            <div class="jumbotron-grid">
+                <div class="jumbotron-grid">
+                    <h2 class="txt-display-1">¡Hola!</h2>
+                    <h3 class="txt-display-2">Soy Felicitas Molinero</h3>
+                    <p class="txt-body-lg-1">Se lenguaje CSS y HTML, tambien un poco de pyton. Sigueme en mis Redes Sociales para saber mas de mi y mis trabajos :)</p>
+                    <div class="socialnet-grid">
+                        <button class="btn btn-icon">
+                            <i class="fa-brands fa-instagram"></i>
+                        </button>
+                        <button class="btn btn-icon">
+                            <i class="fa-brands fa-twitter"></i>
+                        </button>
+                        <button class="btn btn-icon">
+                            <i class="fa-brands fa-github"></i>
+                        </button>
+                        <button class="btn btn-icon">
+                            <i class="fa-brands fa-pinterest"></i>
+                        </button>
+            </div>
+        </div>
+    </section>
+    <section id="inicio"></section>
+    <section id="sobre-mi">
+        <div class="container-abtme">
+            <h2 class="title-section">Sobre Mi</h2>
+            <div class="aboutme-grid">
+                <div>
+                    <p class="sobremi-txt">
+                        Soy Felicitas Molinero, una adolescente de 13 años que se esta adentrando en la programacion web y el diseño.
+                         Estoy en un curso en el cual estoy aprendiendo sobre lo que tanto me gusta hacer.
+                    </p>
+                </div>
+                <div></div>
+            </div>
+        </div>
+    </section>
+    <section id="proyectos">
+        <div class="container">
+            <h2 class="title-section"> Proyectos</h2>
+            <div class="proyectos-grid">
+                <div class="card">
+                    <figure class="card-picture">
+                        <img src="noticia.png"
+                    </figure>
+                    <div class="card-content">
+                        <h3 class="noticia"> Noticia</h3>
+                        <p class="noticia-body"> este es un proyecto sobre una pagina web de un diario y una de sus noticias</p>
+                    </div>
+               </div>
+            </div>
+            <div class="proyectos-grid">
+                <div class="card">
+                    <figure class="card-picture">
+                        <img src="subs.png"
+                    </figure>
+                    <div class="card-content">
+                        <h3 class="noticia"> Subs de Twich</h3>
+                        <p class="noticia-body"> este es un proyecto sobre una pagina web de un compras en la cual se pueden comprar subscripciones para Twich</p>
+                    </div>
+            </div>
+            <div class="proyectos-grid">
+                <div class="card">
+                    <figure class="card-picture">
+                        <img src="joystick.png"
+                    </figure>
+                    <div class="card-content">
+                        <h3 class="noticia"> Joystick</h3>
+                        <p class="noticia-body"> este es un proyecto de un Jostick en 3d diseñado en tinkercad</p>
+                    </div>
+               </div>
+            </div>
+        </div>
+    </section>
+    <section id="contacto"></section>
+    <div class="container">
+        <h2 class="title-section">Contacto</h2>
+        <div class="contact-grid">
+            <div class="card-form">
+                <form>
+                    <div class="form-box">
+                        <label>Email</label>
+                        <input type="email">
+                    </div>
+                    <div class="form-box">
+                        <label>Asunto</label>
+                        <input type="text">
+                    </div>
+                    <div class="form-box">
+                        <label>Mensaje</label>
+                        <input type="text">
+                    </div>
+                    <button class="btn-block" type="submit">
+                        Enviar
+                    </button>
+                </form>
+            </div>
+            <div>
+                <p class="sobremi-txt">Podes encontrarme en:</p>
+                <ul class="ul">
+                    <li>
+                        <button class="btn btn-icon">
+                            <i class="fa-brands fa-instagram"></i>
+                        </button>
+                        <span class="ig">@madebyfelii</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>
+            Made with
+            <i class="fas fa-heart"></i>
+            by madebyfelii (Felicitas Molinero)
+        </p>
+    </footer>
+    <body>
+</html>
